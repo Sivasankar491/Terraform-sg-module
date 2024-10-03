@@ -1,7 +1,8 @@
 output "vpc_id" {
     value = data.aws_vpc.default.id
+
 }
 
-output "sg_id" {
+output "id" {
     value = aws_security_group.main.id
 }
