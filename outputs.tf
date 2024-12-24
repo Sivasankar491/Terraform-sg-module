@@ -3,6 +3,6 @@ output "vpc_id" {
 
 }
 
-output "id" {
+output "sg_id" {
     value = aws_security_group.main.id
 }
